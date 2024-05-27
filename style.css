@@ -24,8 +24,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 400px;
+    justify-content: space-around;
     padding-top: 50px;
 }
 
@@ -47,6 +46,11 @@ nav {
 h1 {
     font-size: 50px;
     width: 500px;
+}
+
+.box-principal {
+    display: flex;
+    justify-content: center;
 }
 
 .section-principal {
@@ -101,8 +105,8 @@ h1 {
 }
 
 .texto-section-dois h2 {
-     font-size: 30px;
-     width: 400px;
+     font-size: 50px;
+     width: 600px;
 }
 
 .texto-section-dois p {
@@ -129,11 +133,11 @@ h1 {
 
 .numeros-section-dois .cartao {
     background-image: url(fundo2.png);
-    width: 1000px;
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 150px;
     border-radius: 20px;
     padding: 40px;
 }
@@ -168,7 +172,6 @@ h1 {
 }
 
 .escritorio .card img {
-    width: 300px;
 }
 
 .escritorio h2 {
