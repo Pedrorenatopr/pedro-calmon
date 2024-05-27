@@ -40,6 +40,10 @@ nav {
     color: white;
 }
 
+.menu a span {
+    color: #3B68FF;
+}
+
 h1 {
     font-size: 50px;
     width: 500px;
@@ -49,11 +53,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 
 .section-principal img {
     width: 500px;
+    border-radius: 20px;
 }
 
 
@@ -81,6 +87,77 @@ h1 {
     background-color: white;
     border-radius: 12px;
     padding: 1em;
+}
+
+.section-dois {
+    padding-top: 60px;
+    background-color: white;
+}
+
+.texto-section-dois {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-section-dois h2 {
+     font-size: 30px;
+     width: 400px;
+}
+
+.texto-section-dois p {
+    width: 600px;
+    padding-bottom: 50px;
+    line-height: 24px   ;
+}
+
+.texto-section-dois a {
+    color: black;
+    border-radius: 12px;
+    border: 1px solid #000;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.numeros-section-dois {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+
+.numeros-section-dois .cartao {
+    background-image: url(fundo2.png);
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.numeros-section-dois .cartao .card h2 {
+    font-size: 64px;
+    border-right: 1px solid gray;
+    padding-right: 50px;
+}
+
+.numeros-section-dois .cartao .card1 h2 {
+    font-size: 64px;
+    border-right: 1px solid gray;
+    padding-right: 50px;
+}
+
+.numeros-section-dois .cartao .card2 h2 {
+    font-size: 64px;
+    border-right: 1px solid gray;
+    padding-right: 50px;
+}
+
+.numeros-section-dois .cartao .card3 h2 {
+    font-size: 64px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -162,7 +239,86 @@ h1 {
         display: none;
     }
 
+    
+    
+    .numeros-section-dois .cartao {
+        background-image: url(fundo2.png);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        border-radius: 20px;
+        padding: 20px;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        width: 100%;
+    }
 
+    .section-dois {
+        padding-top: 60px;
+        background-color: white;
+    }
+    
+    .texto-section-dois {
+        color: black;
+        display: grid;
+        justify-content: center;
+        padding: 0 10px 0 10px;
+    }
+    
+    .texto-section-dois h2 {
+         font-size: 30px;
+         width: 100%;
+    }
+    
+    .texto-section-dois p {
+        width: 100%;
+        padding: 20px 0 30px 0;
+        line-height: 24px   ;
+    }
+    
+    .texto-section-dois a {
+        color: black;
+        border-radius: 12px;
+        border: 1px solid #000;
+        padding: 16px 32px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+    }
+    
+    .numeros-section-dois {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0 50px 0;
+    }
+    
+    
+    .numeros-section-dois .cartao .card h2 {
+        font-size: 64px;
+        border-right: 1px solid gray;
+        padding-right: 50px;
+    }
+    
+    .numeros-section-dois .cartao .card1 h2 {
+        font-size: 64px;
+        border-right: 1px solid gray;
+        padding-right: 50px;
+    }
+    
+    .numeros-section-dois .cartao .card2 h2 {
+        font-size: 64px;
+        border-right: 1px solid gray;
+        padding-right: 50px;
+    }
+    
+    .numeros-section-dois .cartao .card3 h2 {
+        font-size: 64px;
+    }
+
+   
     
     
 }
