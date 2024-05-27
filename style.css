@@ -176,7 +176,7 @@ h1 {
 
 .escritorio h2 {
     text-align: center;
-    font-size: 58px;
+    font-size: 64px;
     padding: 150px 0 45px 0;
 }
 
@@ -191,14 +191,18 @@ h1 {
 .sobre p {
     width: 490px;
     line-height: 24px;
-    padding: 20px 0 40px 0;
+    padding: 20px 0 60px 0;
 }
 
 .sobre a {
     color: white;
     border-radius: 12px;
     background: #145AFE;
-    padding: 1em;
+    padding: 12px 25px;
+}
+
+.sobre h2 {
+    font-size: 50px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -396,6 +400,7 @@ h1 {
 
     .sobre h2 {
         padding-left: 10px;
+        font-size: 35px;
     }
     
     .sobre p {
@@ -408,9 +413,10 @@ h1 {
         color: white;
         border-radius: 12px;
         background: #145AFE;
-        padding: 1em;
         margin-left: 10px;
     }
+
+
 
    
     
