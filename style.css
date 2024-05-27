@@ -94,7 +94,7 @@ h1 {
 }
 
 .section-dois {
-    padding-top: 60px;
+    padding: 100px 0 100px 0;
     background-color: white;
 }
 
@@ -279,6 +279,7 @@ h1 {
     .section-dois {
         padding-top: 60px;
         background-color: white;
+        padding-bottom: 0;
     }
     
     .texto-section-dois {
