@@ -160,6 +160,23 @@ h1 {
     font-size: 64px;
 }
 
+.escritorio .card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.escritorio .card img {
+    width: 300px;
+}
+
+.escritorio h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 150px 0 45px 0;
+}
+
 @media screen and (max-width: 1000px) {
 
     .img-principal {
@@ -316,6 +333,27 @@ h1 {
     
     .numeros-section-dois .cartao .card3 h2 {
         font-size: 64px;
+    }
+
+    .escritorio .card {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        width: 100%;
+
+    }
+    
+    .escritorio .card img {
+        width: 300px;
+    }
+    
+    .escritorio h2 {
+        text-align: center;
+        font-size: 35px;
+        padding: 100px 0 70px 0;
     }
 
    
