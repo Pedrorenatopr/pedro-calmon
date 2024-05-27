@@ -176,8 +176,29 @@ h1 {
 
 .escritorio h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 58px;
     padding: 150px 0 45px 0;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 150px;
+}
+
+.sobre p {
+    width: 490px;
+    line-height: 24px;
+    padding: 20px 0 40px 0;
+}
+
+.sobre a {
+    color: white;
+    border-radius: 12px;
+    background: #145AFE;
+    padding: 1em;
 }
 
 @media screen and (max-width: 1000px) {
@@ -358,6 +379,37 @@ h1 {
         text-align: center;
         font-size: 35px;
         padding: 100px 0 70px 0;
+    }
+    
+    .sobre {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
+        padding-top: 150px;
+    }
+
+    .sobre img {
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+
+    .sobre h2 {
+        padding-left: 10px;
+    }
+    
+    .sobre p {
+        width: 100%;
+        line-height: 24px;
+        padding: 20px 10px 40px 10px;
+    }
+    
+    .sobre a {
+        color: white;
+        border-radius: 12px;
+        background: #145AFE;
+        padding: 1em;
+        margin-left: 10px;
     }
 
    
