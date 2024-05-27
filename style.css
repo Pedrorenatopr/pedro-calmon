@@ -137,7 +137,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 100px;
     border-radius: 20px;
     padding: 40px;
 }
@@ -145,19 +145,19 @@ h1 {
 .numeros-section-dois .cartao .card h2 {
     font-size: 64px;
     border-right: 1px solid gray;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .numeros-section-dois .cartao .card1 h2 {
     font-size: 64px;
     border-right: 1px solid gray;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .numeros-section-dois .cartao .card2 h2 {
     font-size: 64px;
     border-right: 1px solid gray;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .numeros-section-dois .cartao .card3 h2 {
