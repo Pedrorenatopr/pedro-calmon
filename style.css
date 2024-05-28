@@ -172,6 +172,7 @@ h1 {
 }
 
 .escritorio .card img {
+    width: 370px;
 }
 
 .escritorio h2 {
@@ -184,7 +185,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 160px;
     padding-top: 150px;
 }
 
