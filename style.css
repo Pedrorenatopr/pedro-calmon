@@ -186,7 +186,7 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 160px;
-    padding-top: 150px;
+    padding-top: 250px;
 }
 
 .sobre p {
@@ -204,6 +204,29 @@ h1 {
 
 .sobre h2 {
     font-size: 50px;
+}
+
+.equipe .cartao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe .cartao .card .texto-equipe {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.equipe h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.equipe {
+    padding-top: 200px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -416,6 +439,36 @@ h1 {
         background: #145AFE;
         margin-left: 10px;
     }
+
+    .equipe .cartao {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .equipe .cartao .card .texto-equipe {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .equipe .cartao .card img {
+        width: 350px;
+    }
+    
+    .equipe h2 {
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .equipe {
+        padding-top: 150px;
+    }
+
+
+
 
 
 
