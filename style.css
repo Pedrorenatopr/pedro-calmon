@@ -229,7 +229,65 @@ h1 {
     padding-top: 200px;
 }
 
-@media screen and (max-width: 1000px) {
+.tradicao {
+    padding-top: 200px;
+}
+
+.tradicao .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.tradicao .card img {
+}
+
+.texto-tradicao p {
+    width: 400px;
+    line-height: 34px;
+    padding: 40px 0 40px 0;
+}
+
+.texto-tradicao h2 {
+    font-size: 48px;
+}
+
+.texto-tradicao a {
+    color: white;
+    border-radius: 12px;
+    padding: 12px 25px;
+    background: #145AFE;
+
+
+}
+
+@media (max-width: 1350px) {
+
+
+    .texto-tradicao p {
+        width: 100%;
+        line-height: 24px;
+        padding: 30px 0 30px 0;
+    }
+
+    .tradicao .card img {
+        width: 100%;
+    }
+
+    .tradicao .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+
+
+    
+}
+
+@media (max-width: 1000px) {
 
     .img-principal {
         width: 100%;
@@ -465,6 +523,39 @@ h1 {
     
     .equipe {
         padding-top: 150px;
+    }
+
+    .tradicao {
+        padding-top: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .tradicao .card {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    
+    .tradicao .card img {
+    }
+    
+    .texto-tradicao p {
+        width: 100%;
+        line-height: 34px;
+        padding: 40px 0 40px 0;
+    }
+    
+    .texto-tradicao h2 {
+        font-size: 48px;
+    }
+    
+    .texto-tradicao a {
+        color: white;
+        border-radius: 12px;
+        background: #145AFE;
+        padding: 12px 25px;
     }
 
 
