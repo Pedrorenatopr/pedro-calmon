@@ -7,6 +7,16 @@
     text-decoration: none;
 }
 
+:root {
+    --f1: clamp(0.6rem, 1vw, 0.8rem);
+    --f2: clamp(0.8rem, 1vw, 1.0rem);
+    --f3: clamp(1.0rem, 1vw, 1.2rem);
+    --f4: clamp(1.2rem, 1vw, 1.5rem);
+    --f5: clamp(1.5rem, 1vw, 2.5rem);
+    --f6: clamp(2rem, 1vw, 3.5rem);
+    --f7: clamp(4.0rem, 1vw, 5.5rem);
+  }
+
 body {
     background: black;
     color: white;
@@ -334,6 +344,199 @@ h1 {
     width: 50px;
     top: 20px;    
 }
+
+
+
+
+
+.div-sobre {
+  display: flex;
+  justify-content: center;
+}
+
+.iphone-img  img{
+
+}
+
+.texto-iphone {
+  color: white;
+  width: 640px;
+}
+
+.titulo-iphone {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.legenda-iphone {
+  line-height: 30px;
+  margin-bottom: 34px;
+  margin: 34px 0px 34px 0px;
+  width: 530px;
+}
+
+
+
+.box-depoimentos {
+  padding-top: 100px;
+  background-color: white;
+}
+
+.bt-depoimentos {
+    display: flex;
+    justify-content: center;
+}
+
+.bt-depoimentos a {
+    color: #145AFE;
+}
+
+section.depoimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 80px 0 30px 0;
+  }
+  section.depoimentos .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    padding: 0 60px;
+  }
+
+  .div-titulo-depoimentos {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 2px;
+  }
+
+  .titulo-depoimentos {
+    color: black;
+    text-align: center;
+  }
+
+
+  section.depoimentos .texto p {
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    width: 100%;
+    max-width: 400px;
+  }
+  section.depoimentos .texto .tag {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+  }
+  section.depoimentos .texto .tag img {
+    width: 100%;
+    max-width: 40px;
+  }
+  section.depoimentos .texto .tag .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 10px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  section.depoimentos .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+  }
+  section.depoimentos .slide .sombra {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background: linear-gradient(0deg, #edf6fc00, #EDF6FC);
+    background: -webkit-linear-gradient(0deg, #edf6fc00, #7f1f108f);
+    z-index: 2;
+  }
+  section.depoimentos .slide .sombra.dois {
+    display: none;
+  }
+  section.depoimentos .slide .itens {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    animation: itensDepoimentos 240s linear infinite;
+  }
+  @keyframes itensDepoimentos {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-1500px, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  section.depoimentos .slide .itens .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    width: 300px;
+    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+
+  }
+  section.depoimentos .slide .itens .item .nome {
+    display: flex;
+    align-items: center;
+  }
+  section.depoimentos .slide .itens .item .nome .foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 15px 0 0;
+  }
+
+  section.depoimentos .slide .itens .item .nome .info h4 {
+    font-family: var(--semibold);
+    font-size: var(--f1);
+    color: var(--cor-preto);
+    margin: 5px 0 0 0;
+  }
+  section.depoimentos .slide .itens .item .estrelas {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;    
+  }
+  section.depoimentos .slide .itens .item .estrelas img {
+    width: 100%;
+    max-width: 20px;
+    margin: 0 10px 0 0;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(91%) saturate(3028%) hue-rotate(339deg) brightness(107%) contrast(102%);
+  }
+  section.depoimentos .slide .itens .item p {
+    font-family: var(--light);
+    font-size: var(--f3);
+    color: black;
+    line-height: 1.5;
+  }
+  /* 
+  Responsivo 
+  */
 
 
 
@@ -675,6 +878,144 @@ h1 {
         width: 500px;
         line-height: 24px;
     }
+
+    section.depoimentos {
+        flex-direction: column-reverse;
+        padding: 60px 0;
+        justify-content: center;
+      }
+      section.depoimentos .texto {
+        width: 100%;
+        padding: 0 30px 30px 30px;
+      }
+      section.depoimentos .texto h2 {
+        font-size: var(--f5);
+      }
+      section.depoimentos .texto p {
+        font-size: var(--f2);
+      }
+      section.depoimentos .slide {
+        width: 100%;
+      }
+      section.depoimentos .slide .sombra {
+        display: none;
+        width: 100px;
+        background: linear-gradient(0deg, #edf6fc00, #7f1f1000);
+        background: -webkit-linear-gradient(0deg, #7f1f1000, #7f1f108f);
+      }
+      section.depoimentos .slide .sombra.dois {
+        display: none;
+        right: auto;
+        left: 0;
+        background: linear-gradient(0deg, #7f1f1000, #edf6fc00);
+        background: -webkit-linear-gradient(0deg, #7f1f108f, #edf6fc00);
+      }
+      section.depoimentos .slide .itens .item {
+        padding: 25px 25px 80px 25px;
+        width: 280px;
+        min-width: 280px;
+        margin: 0 15px 0 0;
+      }
+      section.depoimentos .slide .itens .item .nome {
+        display: flex;
+        align-items: center;
+      }
+      section.depoimentos .slide .itens .item .nome .foto {
+        width: 40px;
+        height: 40px;
+      }
+      section.depoimentos .slide .itens .item .nome .info h3 {
+        font-size: var(--f2);
+      }
+      section.depoimentos .slide .itens .item .estrelas {
+        margin: 15px 0;
+      }
+      section.depoimentos .slide .itens .item .estrelas img {
+        max-width: 15px;
+        margin: 0 5px 0 0;
+      }
+      section.depoimentos .slide .itens .item p {
+        font-size: var(--f2);
+      }
+  
+      .box-depoimentos {
+        padding-top: 100px;
+      }
+  
+      .sobre {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+      }
+  
+  
+      .iphone {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+      }
+  
+      .iphone-img {
+        display: grid;
+        justify-content: center;
+        justify-content: center;
+        height: auto;
+      }
+  
+      .box-iphone {
+        background-image: none;
+        background-position: -40px -30px;
+        background-repeat: no-repeat;
+        background-size: 500px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }
+      
+  
+      .div-sobre {
+        display: grid;
+        justify-content: center;
+        align-self: center;
+      }
+  
+      .iphone-img  img{
+        width: 100%;
+      }
+  
+      .texto-iphone {
+        color: white;
+        width: 100%;
+        padding: 50px 10px 100px 10px;
+      }
+  
+      .titulo-iphone {
+        font-size: 40px;
+        font-weight: 400;
+      }
+  
+      .legenda-iphone {
+        line-height: 30px;
+        margin-bottom: 34px;
+        margin: 34px 0px 34px 0px;
+        width: 100%;
+      }
+  
+      .destaque {
+        background: var(--DEGRADE-VERMELHO, linear-gradient(90deg, #7F1E10 -1.18%, #7F1E10 8.75%, #821E10 16.69%, #A21E11 98.11%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 700;
+      }
+  
+      .bt-iphone {
+        border-radius: 10px;
+        padding: 21px 32px;
+        color: white;
+        background: var(--DEGRADE-VERMELHO, linear-gradient(90deg, #7F1E10 -1.18%, #7F1E10 8.75%, #821E10 16.69%, #A21E11 98.11%));
+      }
+  
 
 
 
