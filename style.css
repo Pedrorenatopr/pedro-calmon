@@ -280,6 +280,86 @@ h1 {
     line-height: 24px;
 }
 
+.atuacao {
+    display: grid;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+
+.atuacao a {
+    text-align: center;
+    color: #145AFE;
+    padding: 1em;
+}
+
+.titulo-atuacao {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.atuacao .cartao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.atuacao .cartao .card {
+    text-align: center;
+}
+
+.box-icone {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.atuacao .cartao .card p {
+    max-width: 250px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.atuacao .cartao .card h2 {
+    padding: 20px 0 10px 0;
+    font-size: 18px;
+}
+
+.img-atuacao {
+    width: 250px;
+}
+
+.icone-atuacao {
+    width: 50px;
+    top: 20px;    
+}
+
+
+
+
+@media (max-width: 550px) {
+
+    .img-atuacao {
+        width: 100%;
+    }
+
+    .atuacao .cartao .card p {
+        max-width: 100%;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .atuacao {
+        justify-content: center;
+        padding: 100px 20px 100px 20px;
+    }
+
+
+
+}
+
+
 @media (max-width: 1350px) {
 
 
@@ -304,6 +384,8 @@ h1 {
 
     
 }
+
+
 
 @media (max-width: 1000px) {
 
@@ -593,6 +675,7 @@ h1 {
         width: 500px;
         line-height: 24px;
     }
+
 
 
 
