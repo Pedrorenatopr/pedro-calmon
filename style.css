@@ -262,6 +262,24 @@ h1 {
 
 }
 
+.casos {
+    padding: 100px 0 100px 0;
+    background-color:#262626;
+    margin-top: 50px;
+}
+
+.casos .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.casos .card p {
+    width: 500px;
+    line-height: 24px;
+}
+
 @media (max-width: 1350px) {
 
 
@@ -558,6 +576,23 @@ h1 {
         padding: 12px 25px;
     }
 
+    .casos {
+        padding: 100px 20px 100px 20px;
+        background-color:#262626;
+        margin-top: 50px;
+    }
+    
+    .casos .card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .casos .card p {
+        width: 500px;
+        line-height: 24px;
+    }
 
 
 
