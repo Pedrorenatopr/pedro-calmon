@@ -590,7 +590,61 @@ section.depoimentos {
   }
 
 
+  footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 0 100px 0;
+  }
 
+  .card-contato {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0 0 0;
+  }
+
+  li {
+    list-style: none;
+    line-height: 36px;
+  }
+
+  li a {
+    color: white;
+  }
+
+  footer .card p {
+    line-height: 24px;
+  }
+
+  .legenda-footer {
+    width: 300px;
+    padding-top: 20px;
+  }
+
+  .legenda-endereco {
+    width: 250px;
+    padding-top: 10px;
+  }
+
+  .copy {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid grey;
+    padding: 50px 0 50px 0;
+  }
+
+  .copy p{
+    opacity: 0.4;
+  }
+
+
+  .copy a {
+    color: white;
+    opacity: 0.4;
+
+  }
 
 
 
@@ -1103,6 +1157,69 @@ section.depoimentos {
       .loc-form {
         display: none;
       }
+
+      
+
+      footer {
+        display: grid;
+        align-items: flex-start;
+        justify-content: left;
+        gap: 50px;
+        padding: 100px 0 50px 20px;
+      }
+
+      .card-contato {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 10px 0 0 0;
+      }
+
+      li {
+        list-style: none;
+        line-height: 36px;
+      }
+
+      li a {
+        color: white;
+      }
+
+      footer .card p {
+        line-height: 24px;
+      }
+
+      .legenda-footer {
+        width: 300px;
+        padding-top: 20px;
+      }
+
+      .legenda-endereco {
+        width: 250px;
+        padding-top: 10px;
+      }
+
+      .copy {
+        display: grid;
+        justify-content: left;
+        border-top: 1px solid grey;
+        padding: 20px 0 20px 20px;
+        gap: 20px;
+      }
+
+      .copy p{
+        font-size: 12px;
+        opacity: 0.4;
+      }
+
+
+      .copy a {
+        color: white;
+        opacity: 0.4;
+        font-size: 13px;
+
+      }
+
+
   
 
 
